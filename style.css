@@ -1,4 +1,113 @@
-table,th,td{
-    border: 2px solid black;
-    border-collapse: collapse;
+.face{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 150px;
+    margin-top: 100px;
+    position:fixed;
 }
+.eye1{
+    height: 32px;
+    width: 32px;
+    margin-left: 80px;
+    margin-top: 70px;
+    background-color: rgba(0, 119, 255, 0.877);
+    border-radius: 50%;
+    position: absolute;
+}
+.eye2{
+    height: 32px;
+    width: 32px;
+    margin-left: 175px;
+    margin-top: 70px ;
+    background-color: rgba(0, 119, 255, 0.877);
+    border-radius: 50%;
+    position: absolute;
+}
+.eye3{
+    height: 32px;
+    width: 32px;
+    margin-left: 170px;
+    margin-top: 69px ;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+.eye4{
+    height: 32px;
+    width: 32px;
+    margin-left: 75px;
+    margin-top: 70px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+.eye5{
+    height: 16px;
+    width: 16px;
+    margin-left: 82px;
+    margin-top : 78px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+.eye6{
+    height: 16px;
+    width: 16px;
+    margin-left: 178px;
+    margin-top : 77px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+.nose{
+    height: 40px;
+    width: 17px;
+    border-radius: 50%;
+    margin-top: 135px;
+    margin-left: 135px;
+    background-color: black;
+    position: absolute;
+}
+.mouth{
+    height: 30px;
+    width: 80px;
+    border-radius: 0px 0px 100px 100px;
+    border-radius: 50;
+    background-color: brown;
+    border: 10px solid brown;
+    margin-top: 195px;
+    margin-left: 96px;
+    
+}
+.cheek1{
+    border: 1px;
+    background-color: rgb(232, 128, 128);
+    box-shadow: 10px 10px 20px 23px rgb(232, 139, 136);
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 17%;
+    margin-top: 145px;
+    position: absolute;
+}
+.cheek2{
+    border: 1px;
+    background-color: rgb(232, 128, 128);
+    box-shadow: 10px 10px 20px 23px rgb(232, 139, 136);
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 75%;
+    margin-top: 145px;
+    position: absolute;
+}
+.tongue{
+    border: 2px solid rgb(255, 78, 75);
+    background-color: rgb(255, 78, 75);
+    border-radius: 0 0 99px 99px ;
+    height: 14px;
+    width: 50.2px;
+    margin-top: 226px;
+    margin-left: 119px;
+    position: absolute;
+    
+}
+
